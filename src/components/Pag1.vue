@@ -21,19 +21,15 @@
 </template>
 
 <style scoped>
-.header {
-  display: flex;
-  padding: 40px 20px 40px 20px;
-}
-.leftheader {
-    display: flex;
-    font-size: 30px;
-    align-items: center;
-}
-
 .rightheader {
     background-color: aquamarine;
     display: flex;
     justify-content: flex-end;
+}
+.leftheader {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 30px
 }
 </style>
